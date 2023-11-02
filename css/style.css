@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(241, 244, 250);
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.violet{
+    color: #4d3bc6;
+}
+
+.bg-violet{
+    background-color:#4d3bc6;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* Navbar */
+nav{
+    background-color:rgb(236, 239, 247);
+}
+
+nav .nav-content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+nav ul li{
+    padding: 10px 20px;
+    color: gray;
+}
+
+nav h2{
+    padding:0;
+    padding: 10px 20px;
+    color: black;
+}
+
+
+/* Header */
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 90vh;
+}
+
+.header-content .left{
+    width: 40%;
+    margin: 30px;
+}
+
+.header-content .left h6,h1,p{
+    padding: 20px 0;
+}
+
+
+.left h6{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.left h1{
+    font-size: 80px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.left p{
+    color: gray;
+}
+.header-content .right{
+    right: 50%;
+    padding: 20px;
+}
+.header-content .right img{
+    width: 100%;
+}
+
+.header-content button{
+    outline: none;
+    border: none;
+    padding:15px 30px;
+    border-radius:5px;
+}
+.header-content .btn1{
+    color: #fff;
+}
+
+.header-content .btn2{
+    color: #4d3bc6;
+    border:solid 1px #4d3bc6;
+}
+
+/* Section Best Selling  */
+.best-selling{
+    text-align:center;
+    height: 100vh;
+}
+.best-selling h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.best-selling p{
+    color: rgb(115, 115, 115);
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.best-selling .book-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+}
+
+.best-selling .book-cards .book-card{
+    width: 23%;
+}
+.best-selling .book-cards .book-card img{
+    width: 100%;
+}
+
+.best-selling .book-card .img-details{
+    text-align: left;
+}
+.best-selling .book-card .img-details *{
+    padding:5px;
+    margin: 0;
+}
+
+del{
+    color: rgba(115, 115, 115,0.8);
+
+}
+
+
+
+
+
